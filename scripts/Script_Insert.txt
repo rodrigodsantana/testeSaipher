@@ -1,0 +1,53 @@
+USE [Saipher]
+GO
+
+INSERT INTO [dbo].[Aeronave]
+           ([Id]
+           ,[Matricula]
+           ,[Ativo])
+     VALUES
+           (NEWID()
+           ,'PT-1234'
+           ,1)
+
+INSERT INTO [dbo].[Aeronave]
+           ([Id]
+           ,[Matricula]
+           ,[Ativo])
+     VALUES
+           (NEWID()
+           ,'PR-3333'
+           ,1)
+
+INSERT INTO [dbo].[Aeroporto]
+           ([Id]
+           ,[Nome]
+           ,[Endereco]
+           ,[Ativo])
+     VALUES
+           (NEWID()
+           ,'GRU - Aeroporto Internacional de Guarulhos'
+           ,'Rod. Hélio Smidt, s/nº - Aeroporto, Guarulhos - SP, 07190-100'
+           ,1)
+
+INSERT INTO [dbo].[Aeroporto]
+           ([Id]
+           ,[Nome]
+           ,[Endereco]
+           ,[Ativo])
+     VALUES
+           (NEWID()
+           ,'CGH - Aeroporto de Gongonhas'
+           ,'Av. Washington Luís, s/nº - Vila Congonhas, São Paulo - SP, 04626-911'
+           ,1)
+
+INSERT INTO [dbo].[Aeroporto]
+           ([Id]
+           ,[Nome]
+           ,[Endereco]
+           ,[Ativo])
+     VALUES
+           (NEWID()
+           ,'VCP - Aeroporto Internacional de Viracopos-Campinas'
+           ,'Av. Washington Luís, s/nº - Vila Congonhas, São Paulo - SP, 04626-911'
+           ,1)
